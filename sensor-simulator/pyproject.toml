@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "sensor-simulator"
+version = "0.1.0"
+description = ""
+authors = ["fabioklr <fabiokeller@bluewin.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiofiles = "0.5.0"
+aiosqlite = "0.15.0"
+asyncua = "0.8.4"
+cryptography = ">=3.0"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+pycparser = "2.20"
+python-dateutil = "^2.9.0.post0"
+pytz = "2020.1"
+six = "1.15.0"
+typing-extensions = "3.7.4.2"
+cffi = "1.16.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
